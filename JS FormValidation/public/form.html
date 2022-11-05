@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>     
+      <script type = "text/javascript">
+      </script>      
+       <title> Welcome To MY JS.Form Validation</title> 
+   </head>
+   <body>
+      <form action = "/cgi-bin/test.cgi" name = "myForm" onsubmit = "return(validate());">
+         <table cellspacing = "2" cellpadding = "2" border = "1">
+            
+            <tr>
+               <td align = "right">First-Last Name</td>
+               <td><input type = "text" name = "First-Last Name" /></td>
+            </tr>
+            
+            <tr>
+               <td align = "right">Address</td>
+               <td><input type = "text" name = "Address" /></td>
+            </tr>
+            
+            <tr>
+               <td align = "right">Zip Code</td>
+               <td><input type = "text" name = "Zip" /></td>
+            </tr>
+            
+            <tr>
+               <td align = "right">State</td>
+               <td>
+                  <select name = "State">
+                     <option value = "-1" selected>[choose your state]</option>
+                     <option value = "1">IOWA</option>
+                     <option value = "2">FLORIDA</option>
+                     <option value = "3">NEW YOURK</option>
+                  </select>
+               </td>
+            </tr>
+            
+            <tr>
+               <td align = "left"></td>
+               <td><input type = "submit" value = "Submit" /></td>
+            </tr>
+            
+         </table>
+      </form>      
+   </body>
+</html>
